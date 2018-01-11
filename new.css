@@ -1,0 +1,41 @@
+body {
+	background-color:rgb(28, 198, 1);
+}
+h1{
+	color: white;
+	font-family: verdana;
+    font-size: 300%;
+	text-align: center;
+}
+/*This applies to all paragraphs*/
+p{
+	color: yellow;
+	text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: white}
+
+/*This applies only to the element with id "myText"*/			
+/*#myText{
+	color: red;
+	text-decoration: underline;
+	text-transform: capitalize;
+}
+*/
+/*This applies only to elements in the class "format"*/			
+.format2{
+	color: white;
+	font-style: italic;
+	font-size: 18px;
+	text-align: left;
+}
